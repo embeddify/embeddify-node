@@ -48,7 +48,7 @@ const dataRow = {
 `};
 
 (async () => {
-    await embeddify.index(indexName, dataRow);
+    await embeddify.index.generateEmbeddings(indexName, dataRow);
 })();
 ```
 
@@ -71,7 +71,7 @@ const dataRow = {
 `};
 
 (async () => {
-    await embeddify.index(indexName, dataRow);
+    await embeddify.index.generateEmbeddings(indexName, dataRow);
 })();
 ```
 
